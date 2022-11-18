@@ -10,10 +10,17 @@
 	
 
 	//Datos de conexión a Base de Datos
-	const DB_HOST = "localhost";
-	const DB_NAME = "poi_tienda";
-	const DB_USER = "root";
-	const DB_PASSWORD = "";
+	//const DB_HOST = "localhost";
+	//const DB_NAME = "poi_tienda";
+	//const DB_USER = "root";
+	//const DB_PASSWORD = "";
+	//const DB_CHARSET = "utf8";
+
+	//conexion HEROKU
+	const DB_HOST = "us-cdbr-east-06.cleardb.net";
+	const DB_NAME = "heroku_197d7971b7af28c";
+	const DB_USER = "bb9f8d45e4b14c";
+	const DB_PASSWORD = "889005b4";
 	const DB_CHARSET = "utf8";
 
 	//Deliminadores decimal y millar Ej. 24,1989.00
